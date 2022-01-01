@@ -6,8 +6,9 @@ body {
   font-size: 16px;
   font-weight: normal;
 
-  /* Same as above */
-  /* font: normal Arial, Helvetica, sans-serif; */
+  /* Same as above
+    font: normal Arial, Helvetica, sans-serif;
+  */
 
   line-height: 1.6em;
   margin: 0;
@@ -21,4 +22,40 @@ body {
 .box-1 {
   background-color: #333333;
   color: #ffffff;
+
+  /* BORDER */
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+
+  /* Same as above
+    border: 5px red solid;
+  */
+
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted ;
+
+  border: 5px red solid;
+
+  /* PADDING */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+  /* Same as above
+    padding: 20px;
+  */
+
+  /* MARGIN */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  /* Same as above
+    margin: 20px;
+  */
 }
